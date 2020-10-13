@@ -18,14 +18,16 @@ Our proposed method has outperformed even the Convolutional Neural Network(CNN) 
 ![GitHub Logo](/misc/implementation.PNG)
 
 The implementation was done in set of stages:
-•	Pre-processing dataset: Converting the SAR images and Inteferogram into 4 channel input which consists of: (i) Amplitude of first SAR image, (ii) Amplitude of second SAR image, (iii) Real component of phase from the InSAR, and (iv)Imaginary component of phase from the InSAR.
-•	Stage 1 of Super pixeling: Performed using Super pixeling algorithm of Felzenszwalb and SLIC to create super pixels from pixels
-•	Stage 2 of Super pixeling: Performed using K-Means Clustering to create highway pixels from super pixels
-o	A set of experiments were performed altering the parameters for the super pixeling and clustering algorithms in Stage I and II to find out the best combination of parameters.
-•	Coherence Estimation at highway pixel level
-•	Decomposition of highway pixel coherence back to pixel level.
-o	A set of experiments were performed to find the weighting function to decompose the highway pixel coherence to pixel level
-•	Comparison with Ground truth using Mean squared error and SSIM
+* Pre-processing dataset: Converting the SAR images and Inteferogram into 4 channel input which consists of: 
+	(i) Amplitude of first SAR image, 
+	(ii) Amplitude of second SAR image, 
+	(iii) Real component of phase from the InSAR, and 
+	(iv) Imaginary component of phase from the InSAR.
+* Stage 1 of Super pixeling: Performed using Super pixeling algorithm of Felzenszwalb and SLIC to create super pixels from pixels
+* Stage 2 of Super pixeling: Performed using K-Means Clustering to create highway pixels from super pixels: A set of experiments were performed altering the parameters for the super pixeling and clustering algorithms in Stage I and II to find out the best combination of parameters.
+* Coherence Estimation at highway pixel level
+* Decomposition of highway pixel coherence back to pixel level: A set of experiments were performed to find the weighting function to decompose the highway pixel coherence to pixel level
+* Comparison with Ground truth using Mean squared error and SSIM
 
 
 ## Project Structure
