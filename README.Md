@@ -7,9 +7,15 @@ In our research, traditional methods of oversegmentation called Super Pixeling w
 
 Our proposed method has outperformed even the Convolutional Neural Network(CNN) learning-based approach which gave a higher mean-squared error of 0.0299. Thus, our proposed approach estimates coherence between two SAR images, in a more robust and accurate way, compared to the existing traditional as well as learning-based state-of-the-art methods.
 
+![GitHub Logo](/misc/results.PNG)
+
 ## [Read the full Research Report here](https://github.com/fcUalberta/InSARImageCoherence/blob/main/misc/InSAR%20Image%20Coherence%20Project%20Report.pdf)
 
+
+
 ## Implementation structure
+
+![GitHub Logo](/misc/implementation.PNG)
 
 The implementation was done in set of stages:
 •	Pre-processing dataset: Converting the SAR images and Inteferogram into 4 channel input which consists of: (i) Amplitude of first SAR image, (ii) Amplitude of second SAR image, (iii) Real component of phase from the InSAR, and (iv)Imaginary component of phase from the InSAR.
@@ -26,7 +32,7 @@ o	A set of experiments were performed to find the weighting function to decompos
 ![GitHub Logo](/misc/ProjectStructure.PNG)
 
 ## Requirements
-Software Requirements: Refer requirements.txt
+Software Requirements: Refer [requirements.txt](https://github.com/fcUalberta/InSARImageCoherence/blob/main/requirements.txt)
 Hardware Requirements: GPU not required, higher processor for faster computation
 
 
