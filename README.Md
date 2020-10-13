@@ -7,6 +7,8 @@ In our research, traditional methods of oversegmentation called Super Pixeling w
 
 Our proposed method has outperformed even the Convolutional Neural Network(CNN) learning-based approach which gave a higher mean-squared error of 0.0299. Thus, our proposed approach estimates coherence between two SAR images, in a more robust and accurate way, compared to the existing traditional as well as learning-based state-of-the-art methods.
 
+## [Read the full Research Report here](https://github.com/fcUalberta/InSARImageCoherence/blob/main/misc/InSAR%20Image%20Coherence%20Project%20Report.pdf)
+
 ## Implementation structure
 
 The implementation was done in set of stages:
